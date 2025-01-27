@@ -1,6 +1,6 @@
 require 'date'
 
-class FolhaPonto
+class Folhaponto
   attr_accessor :trabalhador, :registros
 
   def initialize(trabalhador)
