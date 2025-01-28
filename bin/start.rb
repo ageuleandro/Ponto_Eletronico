@@ -1,7 +1,7 @@
 require_relative '../lib/trabalhador'
 require_relative '../lib/folhaponto'
 
-trabalhador2 = Trabalhador.new(2, "Ageu Leandro", "Software Engineer", "09:00 - 12:00 e 13:00 - 18:00", "985456/0001")
+trabalhador2 = Trabalhador.new(2, "José", "Software Engineer", "09:00 - 12:00 e 13:00 - 18:00", "985456/0001")
 
 folha2 = Folhaponto.new(trabalhador2)
 
